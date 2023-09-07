@@ -4,8 +4,10 @@
 *You are not allowed to use printf
 *Your program should end with the value 0
 */
-/*
- * main the enter for the program
+/**
+ * main - this is the main entry
+ * description - entery poiint for the program
+ * Return: 0 on success
  */
 int main(void)
 {
