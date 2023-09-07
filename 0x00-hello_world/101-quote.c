@@ -1,11 +1,13 @@
 #include<stdio.h>
 /**
- * main - the first entery of the program
- * 
- * Return:0 on sucess
+ * main - the main entery for the program
+ * print message to screen
+ * Return: 1 on error
  */
 int main(void)
 {
-	fprintf(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
-	return 1;
+	char mes = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	fprintf(stderr, mes);
+	return (1);
 }
