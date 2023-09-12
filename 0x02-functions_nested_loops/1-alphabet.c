@@ -3,7 +3,7 @@
  * main - the entry of the program
  * Return: 0 always
  */
-int main(void)
+int print_alphabet(void)
 {
 	char alpha = 'a';
 
