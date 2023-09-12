@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - the entry of the program
+ * print_alphabet  - the function to print alphapets
  * Return: 0 always
  */
 int print_alphabet(void)
