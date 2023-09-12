@@ -1,8 +1,10 @@
-#include<stdio.io>
+#include<stdio.h>
 /**
  * main - the entry for all our program
+ * Return: 0 always
  */
 int main(void)
 {
-	int_putchar();
+	int _putchar(void);
+	return (0);
 }

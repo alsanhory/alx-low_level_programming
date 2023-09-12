@@ -1,9 +1,10 @@
+#include "main.h"
 #include<stdio.h>
 /**
  * main - the entry for the program
  * Return: 0 on sucess
  */
-int main(void)
+int _putchar(void)
 {
 	putchar('_');
 	putchar('p');
