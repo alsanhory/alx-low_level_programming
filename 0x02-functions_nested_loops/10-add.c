@@ -1,8 +1,9 @@
 #include<stdio.h>
 /**
- * add - function to check if character is minus or pls
- * @n: the character to check
- * Return: 0 always
+ * add - to make addition
+ * @a: the first number
+ * @b: the second number
+ * Return: the result of sum
  */
 int add(int a, int b)
 {
