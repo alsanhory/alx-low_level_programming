@@ -12,20 +12,27 @@ int print_to_98(int n)
 	{
 		for (i = n; i <= 98; i++)
 		{
-			putchar(i);
-			putchar(',');
-			putchar(' ');
+			printf("%d", i);
+			if (i != 98)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	else
 	{
-		for (i=n; i >= 98; i--)
+		for (i = n; i >= 98; i--)
 		{
-			putchar(i);
-			putchar(',');
-			putchar(' ');
+			printf("%d", i);
+			if (i != 98)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
+	putchar('\n');
 
 	return (0);
 }
