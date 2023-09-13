@@ -3,7 +3,8 @@
  * _putchar - function to use putchar
  * Return: character
  */
-int _putchar(char c)
+int _putchar(int c)
 {
-	return putchar(c);
+	int newc = c + 0;
+	return putchar(newc);
 }
