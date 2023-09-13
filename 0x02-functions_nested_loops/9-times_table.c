@@ -14,7 +14,7 @@ void times_table(void)
 		for (j =0; j <= 9; j++)
 		{
 			res = i * j;
-			puthcar(res + '0');
+			putchar(res + '0');
 			if (j != 9)
 			{
 				putchar(',');
