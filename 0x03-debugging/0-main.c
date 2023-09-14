@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /* betty style doc for function main goes there */
 /**
  * main - the main entry for the program
