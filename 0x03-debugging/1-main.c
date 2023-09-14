@@ -11,11 +11,11 @@ int main(void)
 
 	printf("Infinite loop incoming :(\n");
 	i = 0;
-	/* 
+	/*
 	 * while (i < 10)
 	 * this was causing the looop to infinte
 	 *
-	 * */
+	*/
 	{
 		putchar(i);
 	}
