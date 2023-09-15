@@ -4,16 +4,16 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - the main entry for the program
- * check if the number is positive or negitive
+ * positive_or_negative - the main entry for the program
+ * @i: check if the number is positive or negitive
  * Return: 0 on sucess
  */
 void positive_or_negative(int i)
 {
 	int n = i;
 
-	/*srand(time(0));
-	* n = rand() - RAND_MAX / 2; */
+	srand(time(0));
+	/* n = rand() - RAND_MAX / 2; */
 	/* your code goes there */
 	if (n < 0)
 	{
