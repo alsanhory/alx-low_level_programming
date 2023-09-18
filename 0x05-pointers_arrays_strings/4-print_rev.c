@@ -14,9 +14,9 @@ void print_rev(char *str)
 		len++;
 	}
 
-	while (len-1 >= 0)
+	while (len >= 0)
 	{
-		putchar(str[len]);
+		putchar(str[len-1]);
 		len--;
 	}
 	putchar('\n');
