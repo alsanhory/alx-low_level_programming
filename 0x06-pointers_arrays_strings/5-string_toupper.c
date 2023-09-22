@@ -2,16 +2,20 @@
 #include<stdio.h>
 /**
  * *string_toupper - the entry for the program
- * @s1: pointer to variable
- * @s2: staring point for the array
+ * @str: pointer to variable
  * Return: the number of len on sucess
  */
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
-	while (*s1 != '\0' && *s2 != '\0' && *s1 == *s2)
+	char *mychar = str;
+
+	while (*mychar != '\0')
 	{
-		s1++;
-		s2++;
+		if (*mychar >= 'a' && *mychar <= 'z')
+		{
+			*mychar = *mychar - 'a' + 'A';
+		}
+		mychar++;
 	}
-	return (*s1 - *s2);
+	return (str);
 }
