@@ -2,7 +2,7 @@
 #include<stdio.h>
 /**
  * _pow_recursion - the entry for the program
- * @x: number 
+ * @x: number
  * @y: the power
  * Return: the number of len on sucess
  */
