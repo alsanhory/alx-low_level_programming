@@ -2,7 +2,7 @@
 #include<stdio.h>
 /**
  * _strspn - the entry for the program
- * @str: pointer to variable to change
+ * @s: pointer to variable to change
  * @accept: to accept
  * Return: the number of len on sucess
  */
