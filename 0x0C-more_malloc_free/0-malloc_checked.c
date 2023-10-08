@@ -9,6 +9,7 @@
 void *malloc_checked(unsigned int b)
 {
 	void *c;
+	static char x = 98;
 
 	c = malloc(b);
 	if (c != NULL)
@@ -17,8 +18,7 @@ void *malloc_checked(unsigned int b)
 	}
 	else
 	{
-		c = malloc(1);
-		*((unsigned char*)c) = 98;
+		c = (void *)&x;
 		return (c);
 	}
 
