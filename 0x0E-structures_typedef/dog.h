@@ -1,3 +1,4 @@
+#include <stddef.h>
 #ifndef mydog
 #define mydog
 /**
