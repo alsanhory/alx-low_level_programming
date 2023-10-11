@@ -1,6 +1,6 @@
-#include <stddef.h>
 #ifndef mydog
 #define mydog
+#include <stddef.h>
 /**
  * struct dog - my dog
  * @name: the name
