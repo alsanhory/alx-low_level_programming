@@ -3,7 +3,7 @@
 /**
  * read_textfile - a function to read text file
  * @filename: the file name
- * @size_t: the size
+ * @letters: the size
  * Return: 0
  */
 ssize_t read_textfile(const char *filename, size_t letters)
